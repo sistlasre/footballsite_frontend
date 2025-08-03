@@ -1,0 +1,27 @@
+{
+  "cli": {
+    "version": ">= 16.17.3",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "sreeharsha.sistla@gmail.com",
+        "ascAppId": "6749094411",
+        "appleTeamId": "3544B8S6GC"
+      }
+    }
+  }
+}

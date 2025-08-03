@@ -1,0 +1,37 @@
+{
+  "baseUrl": "https://7mfrfu5j44.execute-api.us-east-1.amazonaws.com/dev",
+  "endpoints": {
+    "auth": {
+      "login": "/user/signin",
+      "register": "/user"
+    },
+    "users": {
+      "create": "/user",
+      "organizedEvents": "/user/{userId}/organizer/events",
+      "teams": "/user/{userId}/teams"
+    },
+    "events": {
+      "list": "/events",
+      "create": "/event",
+      "get": "/event/{eventId}",
+      "update": "/event/{eventId}",
+      "delete": "/event/{eventId}",
+      "register": "/events/{eventId}/register"
+    },
+    "teams": {
+      "list": "/teams",
+      "create": "/team",
+      "get": "/team/{teamId}",
+      "update": "/team/{teamId}",
+      "delete": "/team/{teamId}",
+      "join": "/teams/{teamId}/join"
+    },
+    "registrations": {
+      "list": "/registrations",
+      "create": "/registrations/create",
+      "get": "/registrations/{registrationId}",
+      "update": "/registrations/{registrationId}",
+      "delete": "/registrations/{registrationId}"
+    }
+  }
+}
